@@ -1,6 +1,7 @@
 /* Add all your styles here */
 
         /* Custom styles for the table */
+        
         .table-responsive {
             margin: 20px 0;
         }
@@ -15,11 +16,11 @@
             background-color: #e9ecef;
         }
         .avatar {
-            width: 10px; /* Set image width */
-            height: 10px; /* Set image height */
-            
+            width: 30px; /* Set image width */
+            height: 30px; /* Set image height */ 
             margin-right: 8px; /* Space between image and text */
         }
+        
         /* Additional responsiveness for smaller screens */
         @media (max-width: 576px) {
             .table th, .table td {
