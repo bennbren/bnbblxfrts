@@ -26,7 +26,7 @@
         let table = '<table class="table table-bordered border-primary"><tr><th>Stock</th><th>Fruit Name</th><th>Price</th></tr>';
 
         fruits.forEach(fruit => {
-            table += `<tr><td class="text-center">${fruit.stock}</td><td> <img src="fruits/${fruit.name}.Fruit.png" class="avatar"> ${fruit.name}</td><td>${fruit.price}</td></tr>`;
+            table += `<tr><td class="text-center">${fruit.stock}</td><td> <img src="./fruits/${fruit.name}Fruit.png" class="avatar"> ${fruit.name}Fruit.png</td><td>${fruit.price}</td></tr>`;
         });
 
         table += '</table>';
