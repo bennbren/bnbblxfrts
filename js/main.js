@@ -1,4 +1,4 @@
-
+/*
     const fruits = [
         
         { stock:"Unavailable", name: "Dragon", price: 200},
@@ -19,6 +19,10 @@
         { stock:2, name: "Sound", price: 10},
         { stock:2, name: "Love", price: 5},
        
+    ];*/
+    
+    const fruits = [
+    { stock:"Unavailable", name: "Spin", price: 1},
     ];
 
     function generateTable(fruits) {
