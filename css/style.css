@@ -6,8 +6,8 @@
             margin: 20px 0;
         }
         .table th {
-            background-color: #f0ffff;
-            color: black;
+            background-color: #1d827f;
+            color: white;
         }
         .table tbody tr:nth-child(even) {
             background-color: #f8f9fa;

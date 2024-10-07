@@ -23,7 +23,7 @@
 
     function generateTable(fruits) {
         const container = document.getElementById('table-container');
-        let table = '<table class="table table-bordered border-dark"><tr><th>Stock</th><th>Fruit</th><th>Price</th></tr>';
+        let table = '<table class="table table-bordered table-info"><tr><th>Stock</th><th>Fruit</th><th>Price</th></tr>';
 
         fruits.forEach(fruit => {
             table += `<tr><td class="text-center">${fruit.stock}</td><td><img src="./fruits/${fruit.name}Fruit.png" class="avatar"> ${fruit.name}</td><td class="text-right">₱${fruit.price}.00</td></tr>`;
