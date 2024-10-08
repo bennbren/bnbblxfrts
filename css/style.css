@@ -35,7 +35,7 @@
             .avatar {
             width: 20px; /* Set image width */
             height: 20px; /* Set image height */ 
-            margin-right: 20px; /* Space between image and text */
+            margin-right: 2px; /* Space between image and text */
             }
             h6{
               font-size: 0.2rem;
