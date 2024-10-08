@@ -25,9 +25,12 @@
         @media (max-width: 576px) {
             .table th, .table td {
                 font-size: 0.8rem; /* Adjust font size for mobile */
+                white-space: nowrap;
+                
             }
             h1{
               font-size: 1.8rem; 
+              
             }
             .avatar {
             width: 20px; /* Set image width */
@@ -36,5 +39,8 @@
             }
             h6{
               font-size: 0.2rem;
+            }
+            #hideifmobile{
+              display:none;
             }
         }
