@@ -1,13 +1,13 @@
 {
-"fruits"= [
+"fruits": [
         { 
-          stock:0,  
-          name: "Dragon",      
-          price: 190,
-          igPrice:00,
-          fval:00,
-          type:"Beast",
-          rarity:"Mythical"
+          "stock":0,  
+          "name": "Dragon",      
+          "price": 190,
+          "igPrice":00,
+          "fval":00,
+          "type":"Beast",
+          "rarity":"Mythical"
           },
           
         {
