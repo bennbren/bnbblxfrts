@@ -37,10 +37,9 @@
             height: 20px; /* Set image height */ 
             margin-right: 2px; /* Space between image and text */
             }
-            h6{
-              font-size: 0.2rem;
+            small{
+              font-size: 0.1rem;
+              font-family: monaco, mono-space;
             }
-            #hideifmobile{
-              display:none;
-            }
+          
         }
