@@ -26,4 +26,12 @@
             .table th, .table td {
                 font-size: 0.8rem; /* Adjust font size for mobile */
             }
+            h1{
+              font-size: 1.8rem; 
+            }
+            .avatar {
+            width: 20px; /* Set image width */
+            height: 20px; /* Set image height */ 
+            margin-right: 20px; /* Space between image and text */
+        }
         }
