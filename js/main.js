@@ -52,6 +52,7 @@ const titles = document.querySelector("#output")
     function generateTable(fruits) {
         const container = document.getElementById('table-container');
         let table = `
+        
         <h1 class="text-center">BenNBren's Inventory</h1>
         <table class="table table-bordered table-info">
         <tr>
@@ -75,6 +76,7 @@ const titles = document.querySelector("#output")
                                      
                                      
                                </tr>`;
+                              
         });
 
         table += '</table>';
@@ -82,3 +84,77 @@ const titles = document.querySelector("#output")
     }
 
     generateTable(fruits);
+ 
+ //Date
+ /*
+let currentDateTime = new Date();
+  let options = { weekday: 'long', 
+                       year: 'numeric', 
+                       month: 'long', 
+                       day: 'numeric', 
+                       hour: '2-digit', 
+                       minute: '2-digit', 
+                       second: '2-digit', 
+                       hour12: true ,
+                       timezone: 'Asia/Manila'
+                        };
+                        
+let formattedDateTime = currentDateTime.toLocaleString('en-US',options);
+const upDates = document.querySelector("#upDate")
+.innerText = "Current Date and Time:"+ formattedDateTime;
+
+*/
+//endOfTheCodeOnTop
+
+
+//Date And Time auto update
+
+     function getNewDateTime() {
+            let options = { 
+                weekday: 'long', 
+                year: 'numeric', 
+                month: 'long', 
+                day: 'numeric', 
+                hour: '2-digit', 
+                minute: '2-digit', 
+                second: '2-digit', 
+                hour12: true, 
+                timeZone: 'Asia/Manila' 
+            };
+
+            let currentDateTime = new Date();
+            let formattedDateTime = currentDateTime.toLocaleString('en-US', options);
+            return formattedDateTime;
+        }
+        
+        function updateDateTime() {
+            document.querySelector("#upDate")
+            .innerText = "As of: "+getNewDateTime();
+        }
+        
+        setInterval(updateDateTime, 1000);
+        updateDateTime();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
