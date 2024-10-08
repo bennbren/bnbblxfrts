@@ -4,8 +4,8 @@
           "stock":0,  
           "name": "Dragon",      
           "price": 190,
-          "igPrice":00,
-          "fval":00,
+          "igPrice":0,
+          "fval":0,
           "type":"Beast",
           "rarity":"Mythical"
           },
