@@ -69,7 +69,7 @@ const titles = document.querySelector("#output")
         fruits.forEach(fruit => {
             table += `   <tr>
                                      <td class="text-center">${fruit.stock}</td>
-                                     <td><img src="./fruits/${fruit.name}Fruit.png" class="avatar"> ${fruit.name}</td>
+                                     <td><img src="./fruits/${fruit.name}Fruit.png"class="avatar"> ${fruit.name}</td>
                                      <td class="text-right">₱${fruit.price}.00</td>
                                      <td class="text-right">$0.00</td>
                                      <td class="text-right">$0.00</td>
