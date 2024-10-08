@@ -17,7 +17,7 @@
         igPrice:00,
         fval:00,
         type:"Beast",
-        rarity:"Unknown"
+        rarity:"Mythical"
         },
         
         { 
@@ -26,8 +26,8 @@
         price: 70,
         igPrice:00,
         fval:00,
-        type:"Unknown",
-        rarity:"Unknown"
+        type:"Beast",
+        rarity:"Mythical"
         },
         
         { 
@@ -36,8 +36,8 @@
         price: 60,
         igPrice:00,
         fval:00,
-        type:"Unknown",
-        rarity:"Unknown"
+        type:"Elemental",
+        rarity:"Mythical"
         },
         
         { 
@@ -46,8 +46,8 @@
         price: 50,
         igPrice:00,
         fval:00,
-        type:"Unknown",
-        rarity:"Unknown"
+        type:"Beast",
+        rarity:"Mythical"
         },
         
         { 
@@ -56,8 +56,8 @@
         price: 40,
         igPrice:00,
         fval:00,
-        type:"Unknown",
-        rarity:"Unknown"
+        type:"Beast",
+        rarity:"Mythical"
         },
         
         { 
@@ -66,8 +66,8 @@
         price: 30,
         igPrice:00,
         fval:00,
-        type:"Unknown",
-        rarity:"Unknown"
+        type:"Natural",
+        rarity:"Mythical"
         },
         
         { 
@@ -76,8 +76,8 @@
         price: 25,
         igPrice:00,
         fval:00,
-        type:"Unknown",
-        rarity:"Unknown"
+        type:"Natural",
+        rarity:"Mythical"
         },
         
         { 
@@ -86,8 +86,8 @@
         price: 25,
         igPrice:00,
         fval:00,
-        type:"Unknown",
-        rarity:"Unknown"
+        type:"Natural",
+        rarity:"Mythical"
         },
         
         {
@@ -96,8 +96,8 @@
         price: 30,
         igPrice:00,
         fval:00,
-        type:"Unknown",
-        rarity:"Unknown"
+        type:"Natural",
+        rarity:"Mythical"
         },
         
         { 
@@ -106,8 +106,8 @@
         price: 25,
         igPrice:00,
         fval:00,
-        type:"Unknown",
-        rarity:"Unknown"
+        type:"Elemental",
+        rarity:"Legendary"
         },
         
         { 
@@ -116,8 +116,8 @@
         price: 30,
         igPrice:00,
         fval:00,
-        type:"Unknown",
-        rarity:"Unknown"
+        type:"Beast",
+        rarity:"Legendary"
         },
         
         { 
@@ -126,8 +126,8 @@
         price: 30,
         igPrice:00,
         fval:00,
-        type:"Unknown",
-        rarity:"Unknown"
+        type:"Natural",
+        rarity:"Legendary"
         },
         
         { 
@@ -136,8 +136,8 @@
         price: 15,
         igPrice:00,
         fval:00,
-        type:"Unknown",
-        rarity:"Unknown"
+        type:"Elemental",
+        rarity:"Legendary"
         },
        
         { 
@@ -146,8 +146,8 @@
         price: 10,
         igPrice:00,
         fval:00,
-        type:"Unknown",
-        rarity:"Unknown"
+        type:"Beast",
+        rarity:"Legendary"
         },
        
         { 
@@ -156,8 +156,8 @@
         price: 10,
         igPrice:00,
         fval:00,
-        type:"Unknown",
-        rarity:"Unknown"
+        type:"Natural",
+        rarity:"Legendary"
         },
       
         { 
@@ -166,8 +166,8 @@
         price: 5,
         igPrice:00,
         fval:00,
-        type:"Unknown",
-        rarity:"Unknown"
+        type:"Natural",
+        rarity:"Legendary"
         },
      
         { 
@@ -176,8 +176,8 @@
         price: "--",
         igPrice:00,
         fval:00,
-        type:"Unknown",
-        rarity:"Unknown"
+        type:"Natural",
+        rarity:"Mythical"
         },
  
         { 
@@ -186,8 +186,8 @@
         price: "--",
         igPrice:00,
         fval:00,
-        type:"Unknown",
-        rarity:"Unknown"
+        type:"Natural",
+        rarity:"Legendary"
         },
   
        { 
@@ -196,8 +196,8 @@
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Natural",
+       rarity:"Legendary"
        },
 
        { 
@@ -206,8 +206,8 @@
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Natural",
+       rarity:"Legendary"
        },
  
        { 
@@ -216,8 +216,8 @@
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Elemental",
+       rarity:"Rare"
        },
   
        { 
@@ -226,8 +226,8 @@
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Natural",
+       rarity:"Rare"
        },
   
        { 
@@ -236,8 +236,8 @@
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Natural",
+       rarity:"Rare"
        },
   
        { 
@@ -246,8 +246,8 @@
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Natural",
+       rarity:"Rare"
        },
  
        { 
@@ -256,8 +256,8 @@
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Elemental",
+       rarity:"Rare"
        },
   
        { 
@@ -266,8 +266,8 @@
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Natural",
+       rarity:"Uncommon"
        },
   
        { 
@@ -276,8 +276,8 @@
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Elemental",
+       rarity:"Uncommon"
        },
   
        { 
@@ -286,8 +286,8 @@
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Elemental",
+       rarity:"Uncommon"
        },
   
        { 
@@ -296,8 +296,18 @@
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Elemental",
+       rarity:"Uncommon"
+       },
+       
+       { 
+       stock:0,  
+       name: "Falcon", 
+       price: "--",
+       igPrice:00,
+       fval:00,
+       type:"Beast",
+       rarity:"Uncommon"
        },
  
        { 
@@ -306,8 +316,8 @@
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Elemental",
+       rarity:"Uncommon"
        },
   
        { 
@@ -316,8 +326,8 @@
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Natural",
+       rarity:"Common"
        },
 
        { 
@@ -326,8 +336,8 @@
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Elemental",
+       rarity:"Common"
        },
  
        { 
@@ -336,8 +346,8 @@
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Natural",
+       rarity:"Common"
        },
  
        { 
@@ -346,8 +356,8 @@
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Natural",
+       rarity:"Common"
        },
  
        { 
@@ -356,8 +366,8 @@
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Natural",
+       rarity:"Common"
        },
  
        { 
@@ -366,8 +376,8 @@
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Natural",
+       rarity:"Common"
        },
   
        { 
@@ -376,8 +386,8 @@
        price:"--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Natural",
+       rarity:"Common"
        }
     ]
     }
