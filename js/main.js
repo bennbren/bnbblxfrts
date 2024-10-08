@@ -1,8 +1,6 @@
 const titles = document.querySelector("#output")
 
-
-    
-const fruits= [
+const fruits = [
         { 
           stock:0,  
           name: "Dragon",      
@@ -10,7 +8,7 @@ const fruits= [
           igPrice:00,
           fval:00,
           type:"Beast",
-          rarity:"Unknown"
+          rarity:"Mythical"
           },
           
         {
@@ -20,7 +18,7 @@ const fruits= [
         igPrice:00,
         fval:00,
         type:"Beast",
-        rarity:"Unknown"
+        rarity:"Mythical"
         },
         
         { 
@@ -29,8 +27,8 @@ const fruits= [
         price: 70,
         igPrice:00,
         fval:00,
-        type:"Unknown",
-        rarity:"Unknown"
+        type:"Beast",
+        rarity:"Mythical"
         },
         
         { 
@@ -39,8 +37,8 @@ const fruits= [
         price: 60,
         igPrice:00,
         fval:00,
-        type:"Unknown",
-        rarity:"Unknown"
+        type:"Elemental",
+        rarity:"Mythical"
         },
         
         { 
@@ -49,8 +47,8 @@ const fruits= [
         price: 50,
         igPrice:00,
         fval:00,
-        type:"Unknown",
-        rarity:"Unknown"
+        type:"Beast",
+        rarity:"Mythical"
         },
         
         { 
@@ -59,8 +57,8 @@ const fruits= [
         price: 40,
         igPrice:00,
         fval:00,
-        type:"Unknown",
-        rarity:"Unknown"
+        type:"Beast",
+        rarity:"Mythical"
         },
         
         { 
@@ -69,8 +67,8 @@ const fruits= [
         price: 30,
         igPrice:00,
         fval:00,
-        type:"Unknown",
-        rarity:"Unknown"
+        type:"Natural",
+        rarity:"Mythical"
         },
         
         { 
@@ -79,8 +77,8 @@ const fruits= [
         price: 25,
         igPrice:00,
         fval:00,
-        type:"Unknown",
-        rarity:"Unknown"
+        type:"Natural",
+        rarity:"Mythical"
         },
         
         { 
@@ -89,8 +87,8 @@ const fruits= [
         price: 25,
         igPrice:00,
         fval:00,
-        type:"Unknown",
-        rarity:"Unknown"
+        type:"Natural",
+        rarity:"Mythical"
         },
         
         {
@@ -99,8 +97,8 @@ const fruits= [
         price: 30,
         igPrice:00,
         fval:00,
-        type:"Unknown",
-        rarity:"Unknown"
+        type:"Natural",
+        rarity:"Mythical"
         },
         
         { 
@@ -109,8 +107,8 @@ const fruits= [
         price: 25,
         igPrice:00,
         fval:00,
-        type:"Unknown",
-        rarity:"Unknown"
+        type:"Elemental",
+        rarity:"Legendary"
         },
         
         { 
@@ -119,8 +117,8 @@ const fruits= [
         price: 30,
         igPrice:00,
         fval:00,
-        type:"Unknown",
-        rarity:"Unknown"
+        type:"Beast",
+        rarity:"Legendary"
         },
         
         { 
@@ -129,8 +127,8 @@ const fruits= [
         price: 30,
         igPrice:00,
         fval:00,
-        type:"Unknown",
-        rarity:"Unknown"
+        type:"Natural",
+        rarity:"Legendary"
         },
         
         { 
@@ -139,8 +137,8 @@ const fruits= [
         price: 15,
         igPrice:00,
         fval:00,
-        type:"Unknown",
-        rarity:"Unknown"
+        type:"Elemental",
+        rarity:"Legendary"
         },
        
         { 
@@ -149,8 +147,8 @@ const fruits= [
         price: 10,
         igPrice:00,
         fval:00,
-        type:"Unknown",
-        rarity:"Unknown"
+        type:"Beast",
+        rarity:"Legendary"
         },
        
         { 
@@ -159,8 +157,8 @@ const fruits= [
         price: 10,
         igPrice:00,
         fval:00,
-        type:"Unknown",
-        rarity:"Unknown"
+        type:"Natural",
+        rarity:"Legendary"
         },
       
         { 
@@ -169,8 +167,8 @@ const fruits= [
         price: 5,
         igPrice:00,
         fval:00,
-        type:"Unknown",
-        rarity:"Unknown"
+        type:"Natural",
+        rarity:"Legendary"
         },
      
         { 
@@ -179,8 +177,8 @@ const fruits= [
         price: "--",
         igPrice:00,
         fval:00,
-        type:"Unknown",
-        rarity:"Unknown"
+        type:"Natural",
+        rarity:"Mythical"
         },
  
         { 
@@ -189,8 +187,8 @@ const fruits= [
         price: "--",
         igPrice:00,
         fval:00,
-        type:"Unknown",
-        rarity:"Unknown"
+        type:"Natural",
+        rarity:"Legendary"
         },
   
        { 
@@ -199,8 +197,8 @@ const fruits= [
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Natural",
+       rarity:"Legendary"
        },
 
        { 
@@ -209,8 +207,8 @@ const fruits= [
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Natural",
+       rarity:"Legendary"
        },
  
        { 
@@ -219,8 +217,8 @@ const fruits= [
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Elemental",
+       rarity:"Rare"
        },
   
        { 
@@ -229,8 +227,8 @@ const fruits= [
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Natural",
+       rarity:"Rare"
        },
   
        { 
@@ -239,8 +237,8 @@ const fruits= [
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Natural",
+       rarity:"Rare"
        },
   
        { 
@@ -249,8 +247,8 @@ const fruits= [
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Natural",
+       rarity:"Rare"
        },
  
        { 
@@ -259,8 +257,8 @@ const fruits= [
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Elemental",
+       rarity:"Rare"
        },
   
        { 
@@ -269,8 +267,8 @@ const fruits= [
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Natural",
+       rarity:"Uncommon"
        },
   
        { 
@@ -279,8 +277,8 @@ const fruits= [
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Elemental",
+       rarity:"Uncommon"
        },
   
        { 
@@ -289,8 +287,8 @@ const fruits= [
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Elemental",
+       rarity:"Uncommon"
        },
   
        { 
@@ -299,8 +297,18 @@ const fruits= [
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Elemental",
+       rarity:"Uncommon"
+       },
+       
+       { 
+       stock:0,  
+       name: "Falcon", 
+       price: "--",
+       igPrice:00,
+       fval:00,
+       type:"Beast",
+       rarity:"Uncommon"
        },
  
        { 
@@ -309,8 +317,8 @@ const fruits= [
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Elemental",
+       rarity:"Uncommon"
        },
   
        { 
@@ -319,8 +327,8 @@ const fruits= [
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Natural",
+       rarity:"Common"
        },
 
        { 
@@ -329,8 +337,8 @@ const fruits= [
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Elemental",
+       rarity:"Common"
        },
  
        { 
@@ -339,8 +347,8 @@ const fruits= [
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Natural",
+       rarity:"Common"
        },
  
        { 
@@ -349,8 +357,8 @@ const fruits= [
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Natural",
+       rarity:"Common"
        },
  
        { 
@@ -359,8 +367,8 @@ const fruits= [
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Natural",
+       rarity:"Common"
        },
  
        { 
@@ -369,8 +377,8 @@ const fruits= [
        price: "--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Natural",
+       rarity:"Common"
        },
   
        { 
@@ -379,19 +387,20 @@ const fruits= [
        price:"--",
        igPrice:00,
        fval:00,
-       type:"Unknown",
-       rarity:"Unknown"
+       type:"Natural",
+       rarity:"Common"
        }
-    ];
-    
+    ]
     
     /*
     const fruits = [
     { stock:"Unavailable", name: "Spin", price: 1},
     ];
     */
-
+    
     function generateTable(fruits) {
+           
+    
         const container = document.getElementById('table-container');
         let table = `
         
@@ -418,7 +427,7 @@ const fruits= [
                                      <td class="text-right">${fruit.igPrice}</td>
                                      <td class="text-right">${fruit.fval}</td>
                                      <td>${fruit.type}</td>
-                                     <td>${fruit.rarity}</td>
+                                     <td id="rrty">${fruit.rarity}</td>
                                      
                                      
                                      
@@ -431,7 +440,8 @@ const fruits= [
     }
 
     generateTable(fruits);
-
+    
+     
  //Date
  /*
 let currentDateTime = new Date();
